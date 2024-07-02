@@ -53,7 +53,7 @@ namespace RPS_Game
             ShowScores(player, ai);
         }
 
-        private static void UpdateScore(Player player, Player ai, string winner)
+        public static void UpdateScore(Player player, Player ai, string winner)
         {
             if (winner == "Player")
             {
